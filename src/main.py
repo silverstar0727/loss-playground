@@ -28,6 +28,7 @@ import nets
 import optimizers
 import models
 import transforms
+import losses
 
 
 def cli_main(args: ArgsType = None, run: bool = True):

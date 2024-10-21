@@ -1,6 +1,6 @@
 # lightning.pytorch==2.0.0
-name: my_experiment
-version: my_version
+name: custom-loss
+version: custom-ver-1
 
 seed_everything: 42
 trainer:
@@ -25,7 +25,7 @@ model:
         num_classes: 10
 
     criterion:
-      class_path: CrossEntropyLoss
+      class_path: CustomLoss
 
     vis_per_batch: 0
 
